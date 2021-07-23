@@ -1,1 +1,1 @@
-declare let array: number[];
+declare let array5803: number[];

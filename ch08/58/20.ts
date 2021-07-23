@@ -1,4 +1,4 @@
-declare let obj: {props: {a: string; b: number; }; };
+declare let obj5820: { props: { a5820: string; b5820: number; }; };
 const points = [
   [1, 2, 3],
   [4, 5, 6],

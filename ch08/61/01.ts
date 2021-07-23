@@ -1,14 +1,14 @@
 // tsConfig: {"noImplicitAny":false,"strictNullChecks":false}
 
-class Greeting {
+class Greeting6101 {
   constructor(name) {
     this.greeting = 'Hello';
-      // ~~~~~~~~ Property 'greeting' does not exist on type 'Greeting'
+    // ~~~~~~~~ Property 'greeting' does not exist on type 'Greeting'
     this.name = name;
-      // ~~~~ Property 'name' does not exist on type 'Greeting'
+    // ~~~~ Property 'name' does not exist on type 'Greeting'
   }
   greet() {
     return this.greeting + ' ' + this.name;
-             // ~~~~~~~~              ~~~~ Property ... does not exist
+    // ~~~~~~~~              ~~~~ Property ... does not exist
   }
 }

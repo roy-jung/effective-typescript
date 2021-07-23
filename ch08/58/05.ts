@@ -1,4 +1,4 @@
-declare let array: number[];
-for (const el of array) {
+declare let array5805: number[];
+for (const el of array5805) {
   // ...
 }

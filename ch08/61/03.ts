@@ -1,7 +1,7 @@
 // tsConfig: {"noImplicitAny":false,"strictNullChecks":false}
 
-const state = {};
+const state6103 = {};
 state.name = 'New York';
-   // ~~~~ Property 'name' does not exist on type '{}'
+// ~~~~ Property 'name' does not exist on type '{}'
 state.capital = 'Albany';
    // ~~~~~~~ Property 'capital' does not exist on type '{}'

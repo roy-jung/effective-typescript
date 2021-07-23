@@ -1,2 +1,2 @@
-declare let obj: {props: {a: string; b: number; }; };
-const {props: {a, b}} = obj;
+declare let obj5816: { props: { a5816: string; b5816: number; }; };
+const { props: { a5816, b5816 } } = obj5816;

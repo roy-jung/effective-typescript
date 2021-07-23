@@ -4,6 +4,6 @@ interface State {
   name: string;
   capital: string;
 }
-const state = {} as State;
-state.name = 'New York';  // OK
-state.capital = 'Albany';  // OK
+const state6105 = {} as State;
+state6105.name = 'New York';  // OK
+state6105.capital = 'Albany';  // OK

@@ -1,4 +1,4 @@
 // tsConfig: {"noImplicitThis":false}
 
-const x = 1, y = 2, z = 3;
-const pt = { x, y, z };
+const x5810 = 1, y5810 = 2, z5810 = 3;
+const pt5810 = { x5810, y5810, z5810 };
