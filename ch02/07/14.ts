@@ -1,3 +1,3 @@
-function getKey<K extends string>(val: any, key: K) {
+function getKey_0714<K extends string>(val: any, key: K) {
   // ...
 }

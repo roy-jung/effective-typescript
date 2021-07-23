@@ -1,5 +1,11 @@
 {
   "compilerOptions": {
-    "typeRoots": ["./node_modules/@types"]
-  }
+    "module": "ESNext",
+    "typeRoots": ["./node_modules/@types"],
+    "noImplicitAny": true,
+    "strictNullChecks": false
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules"],
+  "target": "esnext"
 }

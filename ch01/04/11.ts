@@ -1,3 +1,3 @@
-interface PostgresDB {
-  runQuery: (sql: string) => any[];
+interface PostgresDB_0411 {
+  runQuery: (sql: string) => any[]
 }

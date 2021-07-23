@@ -1,5 +1,5 @@
-function greet(who: string) {
+function greet_0101(who: string) {
   console.log('Hello', who)
 }
 
-greet('jn')
+greet_0101('jn')

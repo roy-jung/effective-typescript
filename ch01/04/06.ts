@@ -1,25 +1,25 @@
-interface Vector2D {
-  x: number;
-  y: number;
+interface Vector2D_0406 {
+  x: number
+  y: number
 }
-function calculateLength(v: Vector2D) {
-  return Math.sqrt(v.x * v.x + v.y * v.y);
+function calculateLength_0406(v: Vector2D_0406) {
+  return Math.sqrt(v.x * v.x + v.y * v.y)
 }
-interface NamedVector {
-  name: string;
-  x: number;
-  y: number;
+interface NamedVector_0406 {
+  name: string
+  x: number
+  y: number
 }
-interface Vector3D {
-  x: number;
-  y: number;
-  z: number;
+interface Vector3D_0406 {
+  x: number
+  y: number
+  z: number
 }
-function normalize(v: Vector3D) {
-  const length = calculateLength(v);
+function normalize_0406(v: Vector3D_0406) {
+  const length = calculateLength_0406(v)
   return {
     x: v.x / length,
     y: v.y / length,
     z: v.z / length,
-  };
+  }
 }

@@ -1,14 +1,14 @@
-function turnLightOn() {}
-function turnLightOff() {}
-function setLightSwitch(value: boolean) {
+function turnLightOn_0308() {}
+function turnLightOff_0308() {}
+function setLightSwitch_0308(value: boolean) {
   switch (value) {
     case true:
-      turnLightOn();
-      break;
+      turnLightOn()
+      break
     case false:
-      turnLightOff();
-      break;
+      turnLightOff()
+      break
     default:
-      console.log(`I'm afraid I can't do that.`);
+      console.log(`I'm afraid I can't do that.`)
   }
 }

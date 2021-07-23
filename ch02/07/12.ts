@@ -1,3 +1,9 @@
-interface Vector1D { x: number; }
-interface Vector2D extends Vector1D { y: number; }
-interface Vector3D extends Vector2D { z: number; }
+interface Vector1D_0712 {
+  x: number
+}
+interface Vector2D_0712 extends Vector1D_0712 {
+  y: number
+}
+interface Vector3D_0712 extends Vector2D_0712 {
+  z: number
+}

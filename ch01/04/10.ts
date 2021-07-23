@@ -1,9 +1,9 @@
-class C {
-  foo: string;
+class C_0410 {
+  foo: string
   constructor(foo: string) {
-    this.foo = foo;
+    this.foo = foo
   }
 }
 
-const c = new C('instance of C');
-const d: C = { foo: 'object literal' };  // OK!
+const c_0410 = new C_0410('instance of C_0410')
+const d: C_0410 = { foo: 'object literal' } // OK!

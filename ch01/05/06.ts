@@ -1,3 +1,3 @@
-interface ComponentProps {
-  onSelectItem: (item: any) => void;
+interface ComponentProps_0506 {
+  onSelectItem: (item: any) => void
 }

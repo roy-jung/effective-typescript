@@ -1,6 +1,6 @@
 // tsConfig: {"noImplicitAny":false,"strictNullChecks":false}
 
-function add(a, b) {
-  return a + b;
+function add_0201(a, b) {
+  return a + b
 }
-add(10, null);
+add_0201(10, null)

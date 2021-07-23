@@ -1,7 +1,7 @@
-interface Person {
-  name: string;
+interface Person_0711 {
+  name: string
 }
-interface PersonSpan extends Person {
-  birth: Date;
-  death?: Date;
+interface PersonSpan_0711 extends Person_0711 {
+  birth: Date
+  death?: Date
 }

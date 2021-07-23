@@ -1,3 +1,1 @@
-declare function fetch(
-  input: RequestInfo, init?: RequestInit
-): Promise<Response>;
+declare function fetch_0602(input: RequestInfo, init?: RequestInit): Promise<Response>
