@@ -1,9 +1,9 @@
 // tsConfig: {"noImplicitAny":false,"strictNullChecks":false}
 
-interface State {
-  name: string;
-  capital: string;
+interface State_6105 {
+  name: string
+  capital: string
 }
-const state = {} as State;
-state.name = 'New York';  // OK
-state.capital = 'Albany';  // OK
+const state_6105 = {} as State_6105
+state_6105.name = 'New York' // OK
+state_6105.capital = 'Albany' // OK

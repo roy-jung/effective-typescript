@@ -1,7 +1,7 @@
 // tsConfig: {"noImplicitAny":false,"strictNullChecks":false}
 
-class Chart {
-  indices: number[];
+class Chart_6202 {
+  indices: number[]
 
   // ...
 }

@@ -5,6 +5,6 @@
  *  files: { forEach: (arg0: (file: any) => Promise<void>) => void; };
  * }} data
  */
-function loadData(data) {
+function loadData_5910(data) {
   // ...
 }
