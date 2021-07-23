@@ -1,11 +1,11 @@
-function parseCSV(input: string): {[columnName: string]: string}[] {
-  const lines = input.split('\n');
-  const [header, ...rows] = lines;
+function parseCSV_1504(input: string): { [columnName: string]: string }[] {
+  const lines = input.split('\n')
+  const [header, ...rows] = lines
   return rows.map(rowStr => {
-    const row: {[columnName: string]: string} = {};
+    const row: { [columnName: string]: string } = {}
     rowStr.split(',').forEach((cell, i) => {
-      row[header[i]] = cell;
-    });
-    return row;
-  });
+      row[header[i]] = cell
+    })
+    return row
+  })
 }

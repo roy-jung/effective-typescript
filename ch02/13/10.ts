@@ -1,1 +1,1 @@
-type AorB = 'a' | 'b';
+type AorB_1310 = 'a' | 'b'

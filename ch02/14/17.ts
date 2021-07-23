@@ -1,7 +1,7 @@
-interface Options {
-  width: number;
-  height: number;
-  color: string;
-  label: string;
+interface Options_1417 {
+  width: number
+  height: number
+  color: string
+  label: string
 }
-type OptionsUpdate = {[k in keyof Options]?: Options[k]};
+type OptionsUpdate_1417 = { [k in keyof Options_1417]?: Options_1417[k] }

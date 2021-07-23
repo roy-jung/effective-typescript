@@ -1,8 +1,8 @@
-type TState = {
-  name: string;
-  capital: string;
+type TState_1302 = {
+  name: string
+  capital: string
 }
-interface IState {
-  name: string;
-  capital: string;
+interface IState_1302 {
+  name: string
+  capital: string
 }

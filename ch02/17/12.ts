@@ -1,6 +1,6 @@
-let obj: {readonly [k: string]: number} = {};
+let obj_1712: { readonly [k: string]: number } = {}
 // Or Readonly<{[k: string]: number}
-obj.hi = 45;
+obj_1712.hi = 45
 //  ~~ Index signature in type ... only permits reading
-obj = {...obj, hi: 12};  // OK
-obj = {...obj, bye: 34};  // OK
+obj_1712 = { ...obj_1712, hi: 12 } // OK
+obj_1712 = { ...obj_1712, bye: 34 } // OK

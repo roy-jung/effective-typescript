@@ -1,22 +1,22 @@
-interface Room {
-  numDoors: number;
-  ceilingHeightFt: number;
+interface Room_1104 {
+  numDoors: number
+  ceilingHeightFt: number
 }
-function setDarkMode() {}
-interface Options {
-  title: string;
-  darkMode?: boolean;
+function setDarkMode_1104() {}
+interface Options_1104 {
+  title: string
+  darkMode?: boolean
 }
-function createWindow(options: Options) {
+function createWindow_1104(options: Options_1104) {
   if (options.darkMode) {
-    setDarkMode();
+    setDarkMode()
   }
   // ...
 }
-createWindow({
+createWindow_1104({
   title: 'Spider Solitaire',
-  darkmode: true
-// ~~~~~~~~~~~~~ Object literal may only specify known properties, but
-//               'darkmode' does not exist in type 'Options'.
-//               Did you mean to write 'darkMode'?
-});
+  darkmode: true,
+  // ~~~~~~~~~~~~~ Object literal may only specify known properties, but
+  //               'darkmode' does not exist in type 'Options'.
+  //               Did you mean to write 'darkMode'?
+})

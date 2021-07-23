@@ -1,5 +1,7 @@
-interface Point2D {
-  x: number;
-  y: number;
+interface Point2D_1404 {
+  x: number
+  y: number
 }
-function distance(a: Point2D, b: Point2D) { /* ... */ }
+function distance(a: Point2D_1404, b: Point2D_1404) {
+  /* ... */
+}

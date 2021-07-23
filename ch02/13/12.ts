@@ -1,6 +1,10 @@
-type Input = { /* ... */ };
-type Output = { /* ... */ };
-interface VariableMap {
-  [name: string]: Input | Output;
+type Input_1312 = {
+  /* ... */
 }
-type NamedVariable = (Input | Output) & { name: string };
+type Output_1312 = {
+  /* ... */
+}
+interface VariableMap_1312 {
+  [name: string]: Input_1312 | Output_1312
+}
+type NamedVariable_1312 = (Input_1312 | Output_1312) & { name: string }

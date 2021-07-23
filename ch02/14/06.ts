@@ -1,7 +1,10 @@
 // HIDE
-interface Options {}
+interface Options_1406 {}
 // END
-type HTTPFunction = (url: string, options: Options) => Promise<Response>;
-const get: HTTPFunction = (url, options) => { /* COMPRESS */ return Promise.resolve(new Response()); /* END */ };
-const post: HTTPFunction = (url, options) => { /* COMPRESS */ return Promise.resolve(new Response()); /* END */ };
-
+type HTTPFunction_1406 = (url: string, options: Options_1406) => Promise<Response>
+const get_1406: HTTPFunction_1406 = (url, options) => {
+  /* COMPRESS */ return Promise.resolve(new Response()) /* END */
+}
+const post_1406: HTTPFunction_1406 = (url, options) => {
+  /* COMPRESS */ return Promise.resolve(new Response()) /* END */
+}

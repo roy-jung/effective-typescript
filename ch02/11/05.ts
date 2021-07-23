@@ -1,11 +1,11 @@
-interface Room {
-  numDoors: number;
-  ceilingHeightFt: number;
+interface Room_1105 {
+  numDoors: number
+  ceilingHeightFt: number
 }
-function setDarkMode() {}
-interface Options {
-  title: string;
-  darkMode?: boolean;
+function setDarkMode_1105() {}
+interface Options_1105 {
+  title: string
+  darkMode?: boolean
 }
-const o1: Options = document;  // OK
-const o2: Options = new HTMLAnchorElement;  // OK
+const o1_1105: Options_1105 = document // OK
+const o2_1105: Options_1105 = new HTMLAnchorElement() // OK

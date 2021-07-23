@@ -1,21 +1,21 @@
-interface ScatterProps {
+interface ScatterProps_1807 {
   // The data
-  xs: number[];
-  ys: number[];
+  xs: number[]
+  ys: number[]
 
   // Display
-  xRange: [number, number];
-  yRange: [number, number];
-  color: string;
+  xRange: [number, number]
+  yRange: [number, number]
+  color: string
 
   // Events
-  onClick: (x: number, y: number, index: number) => void;
+  onClick: (x: number, y: number, index: number) => void
 }
-interface ScatterProps {
+interface ScatterProps_1807 {
   // ...
-  onDoubleClick: () => void;
+  onDoubleClick: () => void
 }
-const REQUIRES_UPDATE: {[k in keyof ScatterProps]: boolean} = {
+const REQUIRES_UPDATE_1807: { [k in keyof ScatterProps_1807]: boolean } = {
   //  ~~~~~~~~~~~~~~~ Property 'onDoubleClick' is missing in type
   // COMPRESS
   xs: true,
@@ -25,5 +25,4 @@ const REQUIRES_UPDATE: {[k in keyof ScatterProps]: boolean} = {
   color: true,
   onClick: false,
   // END
-};
-
+}

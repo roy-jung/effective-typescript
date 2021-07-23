@@ -1,5 +1,5 @@
-interface Person {
-  firstName: string;
-  lastName: string;
+interface Person_1408 {
+  firstName: string
+  lastName: string
 }
-type PersonWithBirthDate = Person & { birth: Date };
+type PersonWithBirthDate_1408 = Person_1408 & { birth: Date }

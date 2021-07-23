@@ -1,11 +1,11 @@
-interface State {
-  userId: string;
-  pageTitle: string;
-  recentFiles: string[];
-  pageContents: string;
+interface State_1409 {
+  userId: string
+  pageTitle: string
+  recentFiles: string[]
+  pageContents: string
 }
-interface TopNavState {
-  userId: string;
-  pageTitle: string;
-  recentFiles: string[];
+interface TopNavState_1409 {
+  userId: string
+  pageTitle: string
+  recentFiles: string[]
 }

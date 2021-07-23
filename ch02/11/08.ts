@@ -1,10 +1,10 @@
-interface Room {
-  numDoors: number;
-  ceilingHeightFt: number;
+interface Room_1108 {
+  numDoors: number
+  ceilingHeightFt: number
 }
-function setDarkMode() {}
-interface Options {
-  title: string;
-  darkMode?: boolean;
+function setDarkMode_1108() {}
+interface Options_1108 {
+  title: string
+  darkMode?: boolean
 }
-const o = { darkmode: true, title: 'Ski Free' } as Options;  // OK
+const o_1108 = { darkmode: true, title: 'Ski Free' } as Options_1108 // OK

@@ -1,4 +1,4 @@
-type TState = {
-  name: string;
-  capital: string;
+type TState_1301 = {
+  name: string
+  capital: string
 }
