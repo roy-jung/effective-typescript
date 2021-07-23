@@ -1,29 +1,29 @@
-interface Person {
-  first: string;
-  last: string;
+interface Person_0810 {
+  first: string
+  last: string
 }
-const p: Person = { first: 'Jane', last: 'Jacobs' };
-//    -           --------------------------------- Values
-//       ------ Type
-function email(p: Person, subject: string, body: string): Response {
-  //     ----- -          -------          ----  Values
-  //              ------           ------        ------   -------- Types
+const p_0810: Person_0810 = { first: 'Jane', last: 'Jacobs' }
+//    ------                --------------------------------- Values
+//            ----------- Type
+function email_0810(p: Person_0810, subject: string, body: string): Response {
+  //     ---------- -               -------          ----  Values
+  //                   -----------           ------        ------   -------- Types
   // COMPRESS
-  return new Response();
+  return new Response()
   // END
 }
 
-class Cylinder {
-  radius=1;
-  height=1;
+class Cylinder_0810 {
+  radius = 1
+  height = 1
 }
 
-function calculateVolume(shape: unknown) {
+function calculateVolume_0810(shape: unknown) {
   if (shape instanceof Cylinder) {
-    shape  // OK, type is Cylinder
-    shape.radius  // OK, type is number
+    shape // OK, type is Cylinder
+    shape.radius // OK, type is number
   }
 }
-const v = typeof Cylinder;  // Value is "function"
-type T = typeof Cylinder;  // Type is typeof Cylinder
-type C = InstanceType<typeof Cylinder>;  // Type is Cylinder
+const v_0810 = typeof Cylinder_0810 // Value is "function"
+type T_0810 = typeof Cylinder_0810 // Type is typeof Cylinder
+type C_0810 = InstanceType<typeof Cylinder_0810> // Type is Cylinder
