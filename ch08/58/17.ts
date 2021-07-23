@@ -1,3 +1,3 @@
-declare let obj5817: { props: { a5817: string; b5817: number; }; };
-let { a5817 } = obj5817.props;
-if (a5817 === undefined) a5817 = 'default';
+declare let obj_5817: { props: { a: string; b: number } }
+let { a: a_5817 } = obj_5817.props
+if (a_5817 === undefined) a_5817 = 'default'

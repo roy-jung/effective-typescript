@@ -1,4 +1,4 @@
-function log2(a, b) {
-  console.log(a, b);
+function log2_5821(a, b) {
+  console.log(a, b)
 }
-log2();
+log2_5821()

@@ -1,13 +1,13 @@
 // tsConfig: {"noImplicitAny":false,"strictNullChecks":false}
 
 // HIDE
-class Chart6203 {
-  indices: number[];
+class Chart_6203 {
+  indices: number[]
   // END
   getRanges() {
     for (const r of this.indices) {
-      const low = r[0];  // Type is any
-      const high = r[1];  // Type is any
+      const low = r[0] // Type is any
+      const high = r[1] // Type is any
       // ...
     }
   }

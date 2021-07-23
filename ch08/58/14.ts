@@ -1,4 +1,4 @@
-declare let obj5814: { props: { a: string; b: number; }; };
-const props5814 = obj5814.props;
-const a5814 = props5814.a;
-const b5814 = props5814.b;
+declare let obj_5814: { props: { a: string; b: number } }
+const props_5814 = obj_5814.props
+const a_5814 = props_5814.a
+const b_5814 = props_5814.b

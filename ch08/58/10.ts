@@ -1,4 +1,6 @@
 // tsConfig: {"noImplicitThis":false}
 
-const x5810 = 1, y5810 = 2, z5810 = 3;
-const pt5810 = { x5810, y5810, z5810 };
+const x_5810 = 1,
+  y_5810 = 2,
+  z_5810 = 3
+const pt_5810 = { x_5810, y_5810, z_5810 }

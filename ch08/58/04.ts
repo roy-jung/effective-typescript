@@ -1,5 +1,5 @@
-declare let array5804: number[];
-for (var i = 0; i < array5804.length; i++) {
-  const el = array5804[i];
+declare let array_5804: number[]
+for (var i = 0; i < array_5804.length; i++) {
+  const el = array_5804[i]
   // ...
 }

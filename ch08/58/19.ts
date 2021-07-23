@@ -1,4 +1,4 @@
-declare let obj5819: { props: { a5819: string; b5819: number; }; };
-const point = [1, 2, 3];
-const [x5819, y5819, z5819] = point;
-const [, a5819, b5819] = point;  // Ignore the first one
+declare let obj_5819: { props: { a: string; b: number } }
+const point_5819 = [1, 2, 3]
+const [x_5819, y_5819, z_5819] = point_5819
+const [, a_5819, b_5819] = point_5819 // Ignore the first one

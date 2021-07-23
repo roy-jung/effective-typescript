@@ -1,2 +1,2 @@
-declare let obj5818: { props: { a5818: string; b5818: number; }; };
-const { a5818 = 'default' } = obj5818.props;
+declare let obj_5818: { props: { a: string; b: number } }
+const { a: a_5818 = 'default' } = obj_5818.props
