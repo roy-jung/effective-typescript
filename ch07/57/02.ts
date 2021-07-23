@@ -1,4 +1,4 @@
-function addCounter(el: HTMLElement) {
+function addCounter_5702(el: HTMLElement) {
   let clickCount = 0;
   const triviaEl = document.createElement('p');
   const button = document.createElement('button');

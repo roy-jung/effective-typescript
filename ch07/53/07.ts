@@ -1,7 +1,7 @@
-class Person {
-  first: string;
-  last: string;
+class Person_5307 {
+  first: string
+  last: string
   constructor(public name: string) {
-    [this.first, this.last] = name.split(' ');
+    ;[this.first, this.last] = name.split(' ')
   }
 }

@@ -1,15 +1,15 @@
-declare function hash(text: string): number;
-class PasswordChecker {
-  private password: string;
+declare function hash_5605(text: string): number
+class PasswordChecker_5605 {
+  private password: string
 
   constructor() {
-    this.password = 's3cret';
+    this.password = 's3cret'
   }
 
   checkPassword(password: string) {
-    return password === this.password;
+    return password === this.password
   }
 }
 
-const checker = new PasswordChecker();
-const password = (checker as any).password;
+const checker_5605 = new PasswordChecker_5605()
+const password_5605 = (checker_5605 as any).password

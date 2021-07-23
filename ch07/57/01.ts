@@ -1,4 +1,4 @@
-function addCounter(el: HTMLElement) {
+function addCounter_5701(el: HTMLElement) {
   let clickCount = 0;
   const button = document.createElement('button');
   button.textContent = 'Click me';
@@ -9,4 +9,4 @@ function addCounter(el: HTMLElement) {
   el.appendChild(button);
 }
 
-addCounter(document.body);
+addCounter_5701(document.body);
