@@ -1,4 +1,4 @@
-function addDragHandler(el: HTMLElement) {
+function addDragHandler_5508(el: HTMLElement) {
   el.addEventListener('mousedown', eDown => {
     const dragStart = [eDown.clientX, eDown.clientY];
     const handleUp = (eUp: MouseEvent) => {
@@ -11,7 +11,7 @@ function addDragHandler(el: HTMLElement) {
   });
 }
 
-const div = document.getElementById('surface');
-if (div) {
-  addDragHandler(div);
+const div_5508 = document.getElementById('surface');
+if (div_5508) {
+  addDragHandler_5508(div_5508);
 }
