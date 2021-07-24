@@ -1,4 +1,4 @@
-const person = {
+const person_0304 = {
   name: 'Sojourner Truth',
   born: {
     where: 'Swartekill, NY',
