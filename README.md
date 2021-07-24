@@ -1,6 +1,6 @@
 # effective-typescript Study
 
-이펙티브 타입스크립트 스터디
+이펙티브 타입스크립트 스터디.
 
 ## 파일 실행 방법
 
