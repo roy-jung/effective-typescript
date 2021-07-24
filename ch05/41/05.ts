@@ -1,1 +1,3 @@
-function somethingDangerous() {}
+;(() => {
+  function somethingDangerous() {}
+})()

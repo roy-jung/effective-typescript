@@ -1,3 +1,5 @@
-class Person {
-  constructor(public name: string) {}
-}
+;(() => {
+  class Person {
+    constructor(public name: string) {}
+  }
+})()

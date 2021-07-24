@@ -1,18 +1,20 @@
-// tsConfig: {"noImplicitAny":false}
+;(() => {
+  // tsConfig: {"noImplicitAny":false}
 
-class Person {
-  first: string
-  last: string
+  class Person {
+    first: string
+    last: string
 
-  constructor(first: string, last: string) {
-    this.first = first
-    this.last = last
+    constructor(first: string, last: string) {
+      this.first = first
+      this.last = last
+    }
+
+    getName() {
+      return this.first + ' ' + this.last
+    }
   }
 
-  getName() {
-    return this.first + ' ' + this.last
-  }
-}
-
-const marie = new Person('Marie', 'Curie')
-const personName = marie.getName()
+  const marie = new Person('Marie', 'Curie')
+  const personName = marie.getName()
+})()

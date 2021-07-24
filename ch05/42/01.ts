@@ -1,3 +1,5 @@
-function parseYAML(yaml: string): any {
-  // ...
-}
+;(() => {
+  function parseYAML(yaml: string): any {
+    // ...
+  }
+})()

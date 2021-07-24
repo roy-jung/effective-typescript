@@ -1,10 +1,12 @@
-// tsConfig: {"noImplicitThis":false,"noImplicitAny":false}
+;(() => {
+  // tsConfig: {"noImplicitThis":false,"noImplicitAny":false}
 
-const obj = {
-  onClickLong: function (e) {
-    // ...
-  },
-  onClickCompact(e) {
-    // ...
-  },
-}
+  const obj = {
+    onClickLong: function (e) {
+      // ...
+    },
+    onClickCompact(e) {
+      // ...
+    },
+  }
+})()
