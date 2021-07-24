@@ -7,7 +7,7 @@
  * @param {Node} el The element
  * @return {{w: number, h: number}} The size
  */
-function getSize_5907(el) {
+function getSize(el) {
   const bounds = el.getBoundingClientRect()
   // ~~~~~~~~~~~~~~~~~~~~~ Property 'getBoundingClientRect'
   //                       does not exist on type 'Node'

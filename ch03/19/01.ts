@@ -1,1 +1,3 @@
-let x_0301: number = 12;
+;(() => {
+  let x: number = 12
+})()

@@ -1,8 +1,10 @@
-type RecordingType = 'studio' | 'live';
+;(() => {
+  type RecordingType = 'studio' | 'live'
 
-interface Album {
-  artist: string;
-  title: string;
-  releaseDate: Date;
-  recordingType: RecordingType;
-}
+  interface Album {
+    artist: string
+    title: string
+    releaseDate: Date
+    recordingType: RecordingType
+  }
+})()

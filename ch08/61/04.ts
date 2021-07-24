@@ -1,6 +1,6 @@
 // tsConfig: {"noImplicitAny":false,"strictNullChecks":false}
 
-const state_6104 = {
+const state = {
   name: 'New York',
   capital: 'Albany',
 } // OK

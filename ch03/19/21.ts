@@ -1,4 +1,9 @@
-interface Vector2D_0321 { x: number; y: number; }
-function add_0321(a: Vector2D_0321, b: Vector2D_0321) {
-  return { x: a.x + b.x, y: a.y + b.y };
-}
+;(() => {
+  interface Vector2D {
+    x: number
+    y: number
+  }
+  function add(a: Vector2D, b: Vector2D) {
+    return { x: a.x + b.x, y: a.y + b.y }
+  }
+})()

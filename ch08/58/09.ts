@@ -1,10 +1,10 @@
 // tsConfig: {"noImplicitThis":false}
 
-const x_5809 = 1,
-  y_5809 = 2,
-  z_5809 = 3
-const pt_5809 = {
-  x_5809: x_5809,
-  y_5809: y_5809,
-  z_5809: z_5809,
+const x = 1,
+  y = 2,
+  z = 3
+const pt = {
+  x: x,
+  y: y,
+  z: z,
 }

@@ -1,20 +1,22 @@
-interface Options_1416 {
-  width: number
-  height: number
-  color: string
-  label: string
-}
-interface OptionsUpdate_1416 {
-  width?: number
-  height?: number
-  color?: string
-  label?: string
-}
-class UIWidget_1416 {
-  constructor(init: Options_1416) {
-    /* ... */
+;(() => {
+  interface Options {
+    width: number
+    height: number
+    color: string
+    label: string
   }
-  update(options: OptionsUpdate_1416) {
-    /* ... */
+  interface OptionsUpdate {
+    width?: number
+    height?: number
+    color?: string
+    label?: string
   }
-}
+  class UIWidget {
+    constructor(init: Options) {
+      /* ... */
+    }
+    update(options: OptionsUpdate) {
+      /* ... */
+    }
+  }
+})()

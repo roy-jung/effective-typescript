@@ -1,10 +1,12 @@
-interface Person_1402 {
-  firstName: string
-  lastName: string
-}
+;(() => {
+  interface Person {
+    firstName: string
+    lastName: string
+  }
 
-interface PersonWithBirthDate_1402 {
-  firstName: string
-  lastName: string
-  birth: Date
-}
+  interface PersonWithBirthDate {
+    firstName: string
+    lastName: string
+    birth: Date
+  }
+})()

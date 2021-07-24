@@ -1,1 +1,3 @@
-type AorB_1310 = 'a' | 'b'
+;(() => {
+  type AorB = 'a' | 'b'
+})()

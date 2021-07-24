@@ -1,7 +1,7 @@
 // tsConfig: {"noImplicitAny":false,"strictNullChecks":false}
 
 // HIDE
-class Chart_6203 {
+class Chart {
   indices: number[]
   // END
   getRanges() {

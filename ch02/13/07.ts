@@ -1,16 +1,18 @@
-type TState_1307 = {
-  name: string
-  capital: string
-}
-interface IState_1307 {
-  name: string
-  capital: string
-}
-type TPair_1307<T> = {
-  first: T
-  second: T
-}
-interface IPair_1307<T> {
-  first: T
-  second: T
-}
+;(() => {
+  type TState = {
+    name: string
+    capital: string
+  }
+  interface IState {
+    name: string
+    capital: string
+  }
+  type TPair<T> = {
+    first: T
+    second: T
+  }
+  interface IPair<T> {
+    first: T
+    second: T
+  }
+})()

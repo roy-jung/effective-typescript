@@ -1,1 +1,3 @@
-const paragraphs_1708: (readonly string[])[] = []
+;(() => {
+  const paragraphs: (readonly string[])[] = []
+})()

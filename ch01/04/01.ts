@@ -1,4 +1,6 @@
-interface Vector2D_0401 {
-  x: number
-  y: number
-}
+;(() => {
+  interface Vector2D {
+    x: number
+    y: number
+  }
+})()

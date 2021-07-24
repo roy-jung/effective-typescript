@@ -1,25 +1,25 @@
 // tsConfig: {"experimentalDecorators":true}
 
-class Greeter_5310 {
-  greeting: string;
+class Greeter {
+  greeting: string
   constructor(message: string) {
-    this.greeting = message;
+    this.greeting = message
   }
-  @logged_5310
+  @logged
   greet() {
-    return "Hello, " + this.greeting;
+    return 'Hello, ' + this.greeting
   }
 }
 
-function logged_5310(target: any, name: string, descriptor: PropertyDescriptor) {
-  const fn = target[name];
+function logged(target: any, name: string, descriptor: PropertyDescriptor) {
+  const fn = target[name]
   descriptor.value = function () {
-    console.log(`Calling ${name}`);
-    return fn.apply(this, arguments);
-  };
+    console.log(`Calling ${name}`)
+    return fn.apply(this, arguments)
+  }
 }
 
-console.log(new Greeter_5310('Dave').greet());
+console.log(new Greeter('Dave').greet())
 // Logs:
 // Calling greet
 // Hello, Dave

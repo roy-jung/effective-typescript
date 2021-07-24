@@ -1,13 +1,15 @@
-interface ComponentProps_0507 {
-  onSelectItem: (item: any) => void
-}
-function renderSelector_0507(props: ComponentProps_0507) {
-  /* ... */
-}
+;(() => {
+  interface ComponentProps {
+    onSelectItem: (item: any) => void
+  }
+  function renderSelector(props: ComponentProps) {
+    /* ... */
+  }
 
-let selectedId_0507: number = 0
-function handleSelectItem_0507(item: any) {
-  selectedId_0507 = item.id
-}
+  let selectedId: number = 0
+  function handleSelectItem(item: any) {
+    selectedId = item.id
+  }
 
-renderSelector_0507({ onSelectItem: handleSelectItem_0507 })
+  renderSelector({ onSelectItem: handleSelectItem })
+})()

@@ -1,6 +1,6 @@
-declare function hash_5603(text: string): number
+declare function hash(text: string): number
 
-class PasswordChecker__5603 {
+class PasswordChecker_ {
   checkPassword: (password: string) => boolean
   constructor(passwordHash: number) {
     this.checkPassword = (password: string) => {
@@ -9,5 +9,5 @@ class PasswordChecker__5603 {
   }
 }
 
-const checker_5603 = new PasswordChecker(hash_5603('s3cret'))
+const checker = new PasswordChecker(hash('s3cret'))
 checker.checkPassword('s3cret') // Returns true

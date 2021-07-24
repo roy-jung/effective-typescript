@@ -5,10 +5,10 @@
 /**
  * @param {number} num
  */
-function double_6106(num) {
+function double(num) {
   return 2 * num
 }
 
-double_6106('trouble')
+double('trouble')
 // ~~~~~~~~~ Argument of type '"trouble"' is not assignable to
 //           parameter of type 'number'

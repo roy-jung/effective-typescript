@@ -1,6 +1,8 @@
-function getStringLen_1002(foo: String) {
-  return foo.length
-}
+;(() => {
+  function getStringLen(foo: String) {
+    return foo.length
+  }
 
-getStringLen_1002('hello') // OK
-getStringLen_1002(new String('hello')) // OK
+  getStringLen('hello') // OK
+  getStringLen(new String('hello')) // OK
+})()

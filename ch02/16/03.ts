@@ -1,4 +1,6 @@
-const xs_1603 = [1, 2, 3]
-for (const x of xs_1603) {
-  x // Type is number
-}
+;(() => {
+  const xs = [1, 2, 3]
+  for (const x of xs) {
+    x // Type is number
+  }
+})()

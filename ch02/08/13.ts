@@ -1,4 +1,6 @@
-interface Person_0813 {
-  first: string
-  last: string
-}
+;(() => {
+  interface Person {
+    first: string
+    last: string
+  }
+})()

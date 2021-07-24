@@ -1,5 +1,7 @@
-interface Room_1103 {
-  numDoors: number
-  ceilingHeightFt: number
-}
-function setDarkMode_1103() {}
+;(() => {
+  interface Room {
+    numDoors: number
+    ceilingHeightFt: number
+  }
+  function setDarkMode() {}
+})()

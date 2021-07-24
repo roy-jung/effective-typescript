@@ -1,3 +1,5 @@
-function parseNumber_0311(str: string, base=10) {
-  // ...
-}
+;(() => {
+  function parseNumber(str: string, base = 10) {
+    // ...
+  }
+})()

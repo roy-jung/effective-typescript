@@ -1,6 +1,6 @@
 // tsConfig: {"noImplicitThis":false,"noImplicitAny":false}
 
-const obj_5812 = {
+const obj = {
   onClickLong: function (e) {
     // ...
   },

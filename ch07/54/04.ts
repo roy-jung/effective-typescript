@@ -1,22 +1,22 @@
-const obj_5404 = {
+const obj = {
   one: 'uno',
   two: 'dos',
   three: 'tres',
 }
 
-for (const k in obj_5404) {
-  const v = obj_5404[k]
+for (const k in obj) {
+  const v = obj[k]
   // ~~~~~~ Element implicitly has an 'any' type
   //        because type ... has no index signature
 }
 
-interface ABC_5404 {
+interface ABC {
   a: string
   b: string
   c: number
 }
 
-function foo_5404(abc: ABC_5404) {
+function foo(abc: ABC) {
   for (const k in abc) {
     // const k: string
     const v = abc[k]

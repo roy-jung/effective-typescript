@@ -3,7 +3,7 @@
     "module": "ESNext",
     "typeRoots": ["./node_modules/@types"],
     "noImplicitAny": true,
-    "strictNullChecks": false,
+    "strictNullChecks": true,
     "lib": ["esnext", "dom"]
   },
   "include": ["**/*.ts"],

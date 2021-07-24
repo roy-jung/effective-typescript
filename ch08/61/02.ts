@@ -1,6 +1,6 @@
 // tsConfig: {"noImplicitAny":false,"strictNullChecks":false}
 
-class Greeting_6102 {
+class Greeting {
   greeting: string
   name: any
   constructor(name) {

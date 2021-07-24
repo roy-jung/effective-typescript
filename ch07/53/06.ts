@@ -1,3 +1,3 @@
-class Person_5306 {
+class Person {
   constructor(public name: string) {}
 }

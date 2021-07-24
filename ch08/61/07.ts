@@ -3,8 +3,8 @@
 /**
  * @param {number} num
  */
-function double_6107(num) {
+function double(num) {
   return 2 * num
 }
 
-double_6107('trouble') // OK
+double('trouble') // OK

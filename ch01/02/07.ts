@@ -1,3 +1,5 @@
-// tsConfig: {"noImplicitAny":true,"strictNullChecks":true}
+;(() => {
+  // tsConfig: {"noImplicitAny":true,"strictNullChecks":true}
 
-const x_0207: number | null = null
+  const x: number | null = null
+})()
