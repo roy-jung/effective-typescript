@@ -1,6 +1,6 @@
-type Expression1 = any;
-type Expression2 = number | string | any[];
-const tests: Expression2[] = [
+type Expression1_3404 = any;
+type Expression2_3404 = number | string | any[];
+const tests_3404: Expression2_3404[] = [
   10,
   "red",
   true,

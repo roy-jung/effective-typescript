@@ -1,26 +1,26 @@
-type FillPaint = unknown;
-type LinePaint = unknown;
-type PointPaint = unknown;
-type FillLayout = unknown;
-type LineLayout = unknown;
-type PointLayout = unknown;
-interface FillLayer {
+type FillPaint_3206 = unknown;
+type LinePaint_3206 = unknown;
+type PointPaint_3206 = unknown;
+type FillLayout_3206 = unknown;
+type LineLayout_3206 = unknown;
+type PointLayout_3206 = unknown;
+interface FillLayer_3206 {
   type: 'fill';
-  layout: FillLayout;
-  paint: FillPaint;
+  layout: FillLayout_3206;
+  paint: FillPaint_3206;
 }
-interface LineLayer {
+interface LineLayer_3206 {
   type: 'line';
-  layout: LineLayout;
-  paint: LinePaint;
+  layout: LineLayout_3206;
+  paint: LinePaint_3206;
 }
-interface PointLayer {
+interface PointLayer_3206 {
   type: 'paint';
-  layout: PointLayout;
-  paint: PointPaint;
+  layout: PointLayout_3206;
+  paint: PointPaint_3206;
 }
-type Layer = FillLayer | LineLayer | PointLayer;
-function drawLayer(layer: Layer) {
+type Layer_3206 = FillLayer_3206 | LineLayer_3206 | PointLayer_3206;
+function drawLayer_3206(layer: Layer_3206) {
   if (layer.type === 'fill') {
     const {paint} = layer;  // Type is FillPaint
     const {layout} = layer;  // Type is FillLayout

@@ -4,6 +4,6 @@
  * standard foreground color. With one argument, returns the foreground color
  * for a particular page.
  */
-function getForegroundColor(page?: string) {
+function getForegroundColor_3001(page?: string) {
   return page === 'login' ? {r: 127, g: 127, b: 127} : {r: 0, g: 0, b: 0};
 }

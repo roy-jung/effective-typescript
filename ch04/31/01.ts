@@ -1,6 +1,6 @@
 // tsConfig: {"strictNullChecks":false}
 
-function extent(nums: number[]) {
+function extent_3101(nums: number[]) {
   let min, max;
   for (const num of nums) {
     if (!min) {

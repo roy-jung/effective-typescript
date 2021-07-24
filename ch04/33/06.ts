@@ -1,12 +1,12 @@
-type RecordingType = 'studio' | 'live';
+type RecordingType_3306 = 'studio' | 'live';
 
-interface Album {
+interface Album_3306 {
   artist: string;
   title: string;
   releaseDate: Date;
-  recordingType: RecordingType;
+  recordingType: RecordingType_3306;
 }
-function getAlbumsOfType(recordingType: string): Album[] {
+function getAlbumsOfType_3306(recordingType: string): Album_3306[] {
   // COMPRESS
   return [];
   // END

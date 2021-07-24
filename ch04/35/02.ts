@@ -1,5 +1,5 @@
-interface BoundingBox {
+interface BoundingBox_3502 {
   lat: [number, number];
   lng: [number, number];
 }
-type GeoJSONFeature = any;
+type GeoJSONFeature_3502 = any;

@@ -1,4 +1,4 @@
-function extent(nums: number[]) {
+function extent_3102(nums: number[]) {
   let min, max;
   for (const num of nums) {
     if (!min) {

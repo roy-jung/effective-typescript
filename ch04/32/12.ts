@@ -1,14 +1,14 @@
-interface Name {
+interface Name_3212 {
   name: string;
 }
 
-interface PersonWithBirth extends Name {
+interface PersonWithBirth_3212 extends Name_3212 {
   placeOfBirth: string;
   dateOfBirth: Date;
 }
 
-type Person = Name | PersonWithBirth;
-function eulogize(p: Person) {
+type Person_3212 = Name_3212 | PersonWithBirth_3212;
+function eulogize(p: Person_3212) {
   if ('placeOfBirth' in p) {
     p // Type is PersonWithBirth
     const {dateOfBirth} = p  // OK, type is Date

@@ -1,22 +1,22 @@
-type FillPaint = unknown;
-type LinePaint = unknown;
-type PointPaint = unknown;
-type FillLayout = unknown;
-type LineLayout = unknown;
-type PointLayout = unknown;
-interface FillLayer {
+type FillPaint_3205 = unknown;
+type LinePaint_3205 = unknown;
+type PointPaint_3205 = unknown;
+type FillLayout_3205 = unknown;
+type LineLayout_3205 = unknown;
+type PointLayout_3205 = unknown;
+interface FillLayer_3205 {
   type: 'fill';
-  layout: FillLayout;
-  paint: FillPaint;
+  layout: FillLayout_3205;
+  paint: FillPaint_3205;
 }
-interface LineLayer {
+interface LineLayer_3205 {
   type: 'line';
-  layout: LineLayout;
-  paint: LinePaint;
+  layout: LineLayout_3205;
+  paint: LinePaint_3205;
 }
-interface PointLayer {
+interface PointLayer_3205 {
   type: 'paint';
-  layout: PointLayout;
-  paint: PointPaint;
+  layout: PointLayout_3205;
+  paint: PointPaint_3205;
 }
-type Layer = FillLayer | LineLayer | PointLayer;
+type Layer_3205 = FillLayer_3205 | LineLayer_3205 | PointLayer_3205;

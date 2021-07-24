@@ -1,8 +1,8 @@
-type RecordingType = 'studio' | 'live';
+type RecordingType_3304 = 'studio' | 'live';
 
-interface Album {
+interface Album_3304 {
   artist: string;
   title: string;
   releaseDate: Date;
-  recordingType: RecordingType;
+  recordingType: RecordingType_3304;
 }

@@ -1,4 +1,4 @@
-function extent(nums: number[]) {
+function extent_3105(nums: number[]) {
   let result: [number, number] | null = null;
   for (const num of nums) {
     if (!result) {
@@ -9,5 +9,5 @@ function extent(nums: number[]) {
   }
   return result;
 }
-const [min, max] = extent([0, 1, 2])!;
-const span = max - min;  // OK
+const [min_3105, max_3105] = extent_3105([0, 1, 2])!;
+const span_3105 = max_3105 - min_3105;  // OK

@@ -1,8 +1,8 @@
-type Meters = number & {_brand: 'meters'};
-type Seconds = number & {_brand: 'seconds'};
+type Meters_3707 = number & {_brand: 'meters'};
+type Seconds_3707 = number & {_brand: 'seconds'};
 
-const meters = (m: number) => m as Meters;
-const seconds = (s: number) => s as Seconds;
+const meters_3707 = (m: number) => m as Meters_3707;
+const seconds_3707 = (s: number) => s as Seconds_3707;
 
-const oneKm = meters(1000);  // Type is Meters
-const oneMin = seconds(60);  // Type is Seconds
+const oneKm_3707 = meters_3707(1000);  // Type is Meters_3707
+const oneMin_3707 = seconds_3707(60);  // Type is Seconds_3707

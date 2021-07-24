@@ -1,12 +1,12 @@
-type RecordingType = 'studio' | 'live';
+type RecordingType_3312 = 'studio' | 'live';
 
-interface Album {
+interface Album_3312 {
   artist: string;
   title: string;
   releaseDate: Date;
-  recordingType: RecordingType;
+  recordingType: RecordingType_3312;
 }
-function pluck<T>(record: T[], key: keyof T) {
+function pluck_3312<T>(record: T[], key: keyof T) {
   return record.map(r => r[key]);
 }
-declare let albums: Album[];
+declare let albums_3312: Album_3312[];

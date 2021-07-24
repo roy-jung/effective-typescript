@@ -1,10 +1,10 @@
-type Expression1 = any;
-type Expression2 = number | string | any[];
-type FnName = '+' | '-' | '*' | '/' | '>' | '<' | 'case' | 'rgb';
-type CallExpression = [FnName, ...any[]];
-type Expression3 = number | string | CallExpression;
+type Expression1_3405 = any;
+type Expression2_3405 = number | string | any[];
+type FnName_3405 = '+' | '-' | '*' | '/' | '>' | '<' | 'case' | 'rgb';
+type CallExpression_3405 = [FnName_3405, ...any[]];
+type Expression3_3405 = number | string | CallExpression_3405;
 
-const tests: Expression3[] = [
+const tests_3405: Expression3_3405[] = [
   10,
   "red",
   true,

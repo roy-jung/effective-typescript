@@ -1,4 +1,4 @@
-interface Person {
+interface Person_3208 {
   name: string;
   birth?: {
     place: string;

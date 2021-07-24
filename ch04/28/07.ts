@@ -1,22 +1,22 @@
-interface RequestPending {
+interface RequestPending_2807 {
   state: 'pending';
 }
-interface RequestError {
+interface RequestError_2807 {
   state: 'error';
   error: string;
 }
-interface RequestSuccess {
+interface RequestSuccess_2807 {
   state: 'ok';
   pageText: string;
 }
-type RequestState = RequestPending | RequestError | RequestSuccess;
+type RequestState_2807 = RequestPending_2807 | RequestError_2807 | RequestSuccess_2807;
 
-interface State {
+interface State_2807 {
   currentPage: string;
-  requests: {[page: string]: RequestState};
+  requests: {[page: string]: RequestState_2807};
 }
-function getUrlForPage(p: string) { return ''; }
-function renderPage(state: State) {
+function getUrlForPage_2807(p: string) { return ''; }
+function renderPage_2807(state: State_2807) {
   const {currentPage} = state;
   const requestState = state.requests[currentPage];
   switch (requestState.state) {
@@ -29,11 +29,11 @@ function renderPage(state: State) {
   }
 }
 
-async function changePage(state: State, newPage: string) {
+async function changePage_2807(state: State_2807, newPage: string) {
   state.requests[newPage] = {state: 'pending'};
   state.currentPage = newPage;
   try {
-    const response = await fetch(getUrlForPage(newPage));
+    const response = await fetch(getUrlForPage_2807(newPage));
     if (!response.ok) {
       throw new Error(`Unable to load ${newPage}: ${response.statusText}`);
     }

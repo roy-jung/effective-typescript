@@ -1,10 +1,10 @@
-interface Name {
+interface Name_3211 {
   name: string;
 }
 
-interface PersonWithBirth extends Name {
+interface PersonWithBirth_3211 extends Name_3211 {
   placeOfBirth: string;
   dateOfBirth: Date;
 }
 
-type Person = Name | PersonWithBirth;
+type Person_3211 = Name_3211 | PersonWithBirth_3211;

@@ -1,4 +1,4 @@
-function extent(nums: number[]) {
+function extent_3104(nums: number[]) {
   let result: [number, number] | null = null;
   for (const num of nums) {
     if (!result) {

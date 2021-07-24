@@ -1,13 +1,13 @@
-interface Point {
+interface Point_3401 {
   type: 'Point';
   coordinates: number[];
 }
-interface LineString {
+interface LineString_3401 {
   type: 'LineString';
   coordinates: number[][];
 }
-interface Polygon {
+interface Polygon_3401 {
   type: 'Polygon';
   coordinates: number[][][];
 }
-type Geometry = Point | LineString | Polygon;  // Also several others
+type Geometry_3401 = Point_3401 | LineString_3401 | Polygon_3401;  // Also several others

@@ -1,7 +1,7 @@
-type AbsolutePath = string & {_brand: 'abs'};
-function listAbsolutePath(path: AbsolutePath) {
+type AbsolutePath_3703 = string & {_brand: 'abs'};
+function listAbsolutePath_3703(path: AbsolutePath_3703) {
   // ...
 }
-function isAbsolutePath(path: string): path is AbsolutePath {
+function isAbsolutePath_3703(path: string): path is AbsolutePath_3703 {
   return path.startsWith('/');
 }

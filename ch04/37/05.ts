@@ -1,4 +1,4 @@
-function binarySearch<T>(xs: T[], x: T): boolean {
+function binarySearch_3705<T>(xs: T[], x: T): boolean {
   let low = 0, high = xs.length - 1;
   while (high >= low) {
     const mid = low + Math.floor((high - low) / 2);

@@ -1,10 +1,10 @@
-type Meters = number & {_brand: 'meters'};
-type Seconds = number & {_brand: 'seconds'};
+type Meters_3708 = number & {_brand: 'meters'};
+type Seconds_3708 = number & {_brand: 'seconds'};
 
-const meters = (m: number) => m as Meters;
-const seconds = (s: number) => s as Seconds;
+const meters_3708 = (m: number) => m as Meters_3708;
+const seconds_3708 = (s: number) => s as Seconds_3708;
 
-const oneKm = meters(1000);  // Type is Meters
-const oneMin = seconds(60);  // Type is Seconds
-const tenKm = oneKm * 10;  // Type is number
-const v = oneKm / oneMin;  // Type is number
+const oneKm_3708 = meters_3708(1000);  // Type is Meters_3707
+const oneMin_3708 = seconds_3708(60);  // Type is Seconds_3707
+const tenKm_3708 = oneKm_3708 * 10;  // Type is number
+const v_3708 = oneKm_3708 / oneMin_3708;  // Type is number
