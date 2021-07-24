@@ -5,6 +5,6 @@
 /**
  * @param {number} val
  */
-function double_5908(val) {
+function double(val) {
   return 2 * val
 }

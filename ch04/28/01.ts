@@ -1,5 +1,7 @@
-interface State {
-  pageText: string;
-  isLoading: boolean;
-  error?: string;
-}
+;(() => {
+  interface State {
+    pageText: string
+    isLoading: boolean
+    error?: string
+  }
+})()

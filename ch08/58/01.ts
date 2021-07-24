@@ -1,6 +1,6 @@
 // tsConfig: {"noImplicitAny":false}
 
-class Person_5801 {
+class Person {
   first: string
   last: string
 
@@ -14,5 +14,5 @@ class Person_5801 {
   }
 }
 
-const marie = new Person_5801('Marie', 'Curie')
+const marie = new Person('Marie', 'Curie')
 const personName = marie.getName()

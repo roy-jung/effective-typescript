@@ -1,4 +1,4 @@
-function foo_5802() {
+function foo() {
   bar()
   function bar() {
     console.log('hello')

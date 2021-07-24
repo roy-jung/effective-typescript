@@ -1,19 +1,21 @@
-class Square_0304 {
-  constructor(public width: number) {}
-}
-class Rectangle_0304 extends Square_0304 {
-  constructor(public width: number, public height: number) {
-    super(width)
+;(() => {
+  class Square {
+    constructor(public width: number) {}
   }
-}
-type Shape_0304 = Square_0304 | Rectangle_0304
+  class Rectangle extends Square {
+    constructor(public width: number, public height: number) {
+      super(width)
+    }
+  }
+  type Shape = Square | Rectangle
 
-function calculateArea(shape: Shape_0304) {
-  if (shape instanceof Rectangle_0304) {
-    shape // Type is Rectangle_0304
-    return shape.width * shape.height
-  } else {
-    shape // Type is Square_0304
-    return shape.width * shape.width // OK
+  function calculateArea(shape: Shape) {
+    if (shape instanceof Rectangle) {
+      shape // Type is Rectangle
+      return shape.width * shape.height
+    } else {
+      shape // Type is Square
+      return shape.width * shape.width // OK
+    }
   }
-}
+})()

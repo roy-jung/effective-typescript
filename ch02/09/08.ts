@@ -1,4 +1,6 @@
-interface Person_0908 {
-  name: string
-}
-const people_0908 = ['alice', 'bob', 'jan'].map((name): Person_0908 => ({ name })) // Type is Person_0908[]
+;(() => {
+  interface Person {
+    name: string
+  }
+  const people = ['alice', 'bob', 'jan'].map((name): Person => ({ name })) // Type is Person[]
+})()

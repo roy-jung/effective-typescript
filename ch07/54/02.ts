@@ -1,4 +1,4 @@
-const obj_5402 = {
+const obj = {
   /* ... */
 }
 // const obj: {
@@ -6,7 +6,7 @@ const obj_5402 = {
 //     two: string;
 //     three: string;
 // }
-for (const k in obj_5402) {
+for (const k in obj) {
   // const k: string
   // ...
 }

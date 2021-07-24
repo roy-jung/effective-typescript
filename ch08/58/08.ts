@@ -1,6 +1,6 @@
 // tsConfig: {"noImplicitThis":false}
 
-class Foo_5808 {
+class Foo {
   method() {
     console.log(this)
     ;[1, 2].forEach(i => {
@@ -8,6 +8,6 @@ class Foo_5808 {
     })
   }
 }
-const f_5808 = new Foo_5808()
-f_5808.method()
+const f = new Foo()
+f.method()
 // Always prints Foo, Foo, Foo

@@ -1,3 +1,3 @@
-namespace foo_5309 {
+namespace foo {
   function bar() {}
 }

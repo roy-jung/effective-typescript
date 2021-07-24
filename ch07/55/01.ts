@@ -1,4 +1,4 @@
-function handleDrag_5501(eDown: Event) {
+function handleDrag(eDown: Event) {
   const targetEl = eDown.currentTarget
   targetEl.classList.add('dragging')
   // ~~~~~~~           Object is possibly 'null'.
@@ -29,6 +29,6 @@ function handleDrag_5501(eDown: Event) {
   // ~~~~~~~ Object is possibly 'null'
 }
 
-const div_5501 = document.getElementById('surface')
-div_5501.addEventListener('mousedown', handleDrag_5501)
+const div = document.getElementById('surface')
+div.addEventListener('mousedown', handleDrag)
 // ~~~ Object is possibly 'null'

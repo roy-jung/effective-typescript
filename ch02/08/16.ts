@@ -1,7 +1,9 @@
-interface Person_0816 {
-  first: string
-  last: string
-}
-function email_0816({ person, subject, body }: { person: Person_0816; subject: string; body: string }) {
-  // ...
-}
+;(() => {
+  interface Person {
+    first: string
+    last: string
+  }
+  function email({ person, subject, body }: { person: Person; subject: string; body: string }) {
+    // ...
+  }
+})()

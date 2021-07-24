@@ -1,16 +1,18 @@
-type TState_1309 = {
-  name: string
-  capital: string
-}
-interface IState_1309 {
-  name: string
-  capital: string
-}
-class StateT_1309 implements TState_1309 {
-  name: string = ''
-  capital: string = ''
-}
-class StateI_1309 implements IState_1309 {
-  name: string = ''
-  capital: string = ''
-}
+;(() => {
+  type TState = {
+    name: string
+    capital: string
+  }
+  interface IState {
+    name: string
+    capital: string
+  }
+  class StateT implements TState {
+    name: string = ''
+    capital: string = ''
+  }
+  class StateI implements IState {
+    name: string = ''
+    capital: string = ''
+  }
+})()

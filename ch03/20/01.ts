@@ -1,2 +1,4 @@
-function fetchProduct(id: string) {}
-function fetchProductBySerialNumber(id: number) {}
+;(() => {
+  function fetchProduct(id: string) {}
+  function fetchProductBySerialNumber(id: number) {}
+})()

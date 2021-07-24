@@ -1,3 +1,5 @@
-function pluck(record: any[], key: string): any[] {
-  return record.map(r => r[key]);
-}
+;(() => {
+  function pluck(record: any[], key: string): any[] {
+    return record.map(r => r[key])
+  }
+})()

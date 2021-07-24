@@ -1,1 +1,5 @@
-function sort(nums: readonly number[]) { /* ... */ }
+;(() => {
+  function sort(nums: readonly number[]) {
+    /* ... */
+  }
+})()

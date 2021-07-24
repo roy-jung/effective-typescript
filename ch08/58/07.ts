@@ -1,6 +1,6 @@
 // tsConfig: {"noImplicitThis":false}
 
-class Foo_5807 {
+class Foo {
   method() {
     console.log(this)
     ;[1, 2].forEach(function (i) {
@@ -8,7 +8,7 @@ class Foo_5807 {
     })
   }
 }
-const f_5807 = new Foo_5807()
-f_5807.method()
+const f = new Foo()
+f.method()
 // Prints Foo, undefined, undefined in strict mode
 // Prints Foo, window, window (!) in non-strict mode

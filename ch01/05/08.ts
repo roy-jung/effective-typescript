@@ -1,3 +1,5 @@
-interface ComponentProps_0508 {
-  onSelectItem: (id: number) => void
-}
+;(() => {
+  interface ComponentProps {
+    onSelectItem: (id: number) => void
+  }
+})()

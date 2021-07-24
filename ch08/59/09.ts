@@ -1,6 +1,6 @@
 // tsConfig: {"strictNullChecks":false,"allowJs":true,"noEmit":true,"noImplicitAny":false}
 
-function loadData_5909(data) {
+function loadData(data) {
   data.files.forEach(async file => {
     // ...
   })

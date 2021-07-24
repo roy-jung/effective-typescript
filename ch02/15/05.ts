@@ -1,19 +1,21 @@
-function parseCSV_1505(input: string): { [columnName: string]: string }[] {
-  const lines = input.split('\n')
-  const [header, ...rows] = lines
-  return rows.map(rowStr => {
-    const row: { [columnName: string]: string } = {}
-    rowStr.split(',').forEach((cell, i) => {
-      row[header[i]] = cell
+;(() => {
+  function parseCSV(input: string): { [columnName: string]: string }[] {
+    const lines = input.split('\n')
+    const [header, ...rows] = lines
+    return rows.map(rowStr => {
+      const row: { [columnName: string]: string } = {}
+      rowStr.split(',').forEach((cell, i) => {
+        row[header[i]] = cell
+      })
+      return row
     })
-    return row
-  })
-}
-interface ProductRow_1505 {
-  productId: string
-  name: string
-  price: string
-}
+  }
+  interface ProductRow {
+    productId: string
+    name: string
+    price: string
+  }
 
-declare let csvData_1505: string
-const products_1505 = parseCSV_1505(csvData_1505) as unknown as ProductRow_1505[]
+  declare let csvData: string
+  const products = parseCSV(csvData) as unknown as ProductRow[]
+})()

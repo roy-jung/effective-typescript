@@ -1,4 +1,4 @@
-class Person_5308 {
+class Person {
   constructor(public name: string) {}
 }
-const p_5308: Person_5308 = { name: 'Jed Bartlet' } // OK
+const p: Person = { name: 'Jed Bartlet' } // OK

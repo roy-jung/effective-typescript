@@ -1,8 +1,10 @@
-function arraySum_1702(arr: number[]) {
-  let sum = 0,
-    num
-  while ((num = arr.pop()) !== undefined) {
-    sum += num
+;(() => {
+  function arraySum(arr: number[]) {
+    let sum = 0,
+      num
+    while ((num = arr.pop()) !== undefined) {
+      sum += num
+    }
+    return sum
   }
-  return sum
-}
+})()

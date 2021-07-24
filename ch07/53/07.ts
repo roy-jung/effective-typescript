@@ -1,4 +1,4 @@
-class Person_5307 {
+class Person {
   first: string
   last: string
   constructor(public name: string) {

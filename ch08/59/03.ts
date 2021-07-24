@@ -1,5 +1,5 @@
-interface UserData_5903 {
+interface UserData {
   firstName: string
   lastName: string
 }
-declare let user: UserData_5903
+declare let user: UserData

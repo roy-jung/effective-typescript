@@ -1,3 +1,5 @@
-type A_0702 = 'A'
-type B_0702 = 'B'
-type Twelve_0702 = 12
+;(() => {
+  type A = 'A'
+  type B = 'B'
+  type Twelve = 12
+})()

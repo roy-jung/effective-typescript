@@ -1,2 +1,6 @@
-/** Does not modify nums */
-function sort(nums: number[]) { /* ... */ }
+;(() => {
+  /** Does not modify nums */
+  function sort(nums: number[]) {
+    /* ... */
+  }
+})()
