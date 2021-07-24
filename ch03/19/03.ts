@@ -1,4 +1,4 @@
-const person: {
+const person_0303: {
   name: string;
   born: {
     where: string;
