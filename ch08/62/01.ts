@@ -1,7 +1,9 @@
-// tsConfig: {"noImplicitAny":false,"strictNullChecks":false}
+;(() => {
+  // tsConfig: {"noImplicitAny":false,"strictNullChecks":false}
 
-class Chart {
-  indices: any
+  class Chart {
+    indices: any
 
-  // ...
-}
+    // ...
+  }
+})()

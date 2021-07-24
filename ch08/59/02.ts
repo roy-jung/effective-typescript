@@ -1,3 +1,5 @@
-// @ts-check
-console.log(user.firstName);
-         // ~~~~ Cannot find name 'user'
+;(() => {
+  // @ts-check
+  console.log(user.firstName)
+  // ~~~~ Cannot find name 'user'
+})()

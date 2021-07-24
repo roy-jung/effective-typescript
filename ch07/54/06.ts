@@ -1,5 +1,7 @@
-interface ABC {
-  a: string
-  b: string
-  c: number
-}
+;(() => {
+  interface ABC {
+    a: string
+    b: string
+    c: number
+  }
+})()

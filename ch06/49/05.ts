@@ -1,1 +1,3 @@
-declare function makeButton(props: {text: string, onClick: () => void }): void;
+;(() => {
+  declare function makeButton(props: { text: string; onClick: () => void }): void
+})()

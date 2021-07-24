@@ -1,1 +1,3 @@
-declare let array: number[]
+;(() => {
+  declare let array: number[]
+})()
