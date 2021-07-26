@@ -1,15 +1,15 @@
-;(() => {
-  interface ComponentProps {
-    onSelectItem: (item: any) => void
-  }
-  function renderSelector(props: ComponentProps) {
-    /* ... */
-  }
+interface ComponentProps {
+  onSelectItem: (item: any) => void
+}
+function renderSelector(props: ComponentProps) {
+  /* ... */
+}
 
-  let selectedId: number = 0
-  function handleSelectItem(item: any) {
-    selectedId = item.id
-  }
+let selectedId: number = 0
+function handleSelectItem(item: any) {
+  selectedId = item.id
+}
 
-  renderSelector({ onSelectItem: handleSelectItem })
-})()
+renderSelector({ onSelectItem: handleSelectItem })
+
+export default {}

@@ -1,7 +1,7 @@
-;(() => {
-  function greet(who: string) {
-    console.log('Hello', who)
-  }
+function greet(who: string) {
+  console.log('Hello', who)
+}
 
-  greet('jn')
-})()
+greet('jn')
+
+export default {}

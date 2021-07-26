@@ -1,4 +1,4 @@
-;(() => {
-  function turnLightOn() {}
-  function turnLightOff() {}
-})()
+function turnLightOn() {}
+function turnLightOff() {}
+
+export default {}

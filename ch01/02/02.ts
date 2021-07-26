@@ -1,7 +1,7 @@
-;(() => {
-  // tsConfig: {"noImplicitAny":false}
+// tsConfig: {"noImplicitAny":false}
 
-  function add(a, b) {
-    return a + b
-  }
-})()
+function add(a, b) {
+  return a + b
+}
+
+export default {}

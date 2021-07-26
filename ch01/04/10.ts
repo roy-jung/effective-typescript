@@ -1,11 +1,11 @@
-;(() => {
-  class C {
-    foo: string
-    constructor(foo: string) {
-      this.foo = foo
-    }
+class C {
+  foo: string
+  constructor(foo: string) {
+    this.foo = foo
   }
+}
 
-  const c = new C('instance of C')
-  const d: C = { foo: 'object literal' } // OK!
-})()
+const c = new C('instance of C')
+const d: C = { foo: 'object literal' } // OK!
+
+export default {}

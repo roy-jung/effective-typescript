@@ -1,5 +1,5 @@
-;(() => {
-  interface PostgresDB {
-    runQuery: (sql: string) => any[]
-  }
-})()
+interface PostgresDB {
+  runQuery: (sql: string) => any[]
+}
+
+export default {}

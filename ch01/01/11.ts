@@ -1,4 +1,4 @@
-;(() => {
-  const names = ['Alice', 'Bob']
-  console.log(names[2].toUpperCase())
-})()
+const names = ['Alice', 'Bob']
+console.log(names[2].toUpperCase())
+
+export default {}

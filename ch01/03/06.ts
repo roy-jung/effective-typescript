@@ -1,5 +1,5 @@
-;(() => {
-  function asNumber(val: number | string): number {
-    return typeof val === 'string' ? Number(val) : val
-  }
-})()
+function asNumber(val: number | string): number {
+  return typeof val === 'string' ? Number(val) : val
+}
+
+export default {}

@@ -1,5 +1,5 @@
-;(() => {
-  // tsConfig: {"noImplicitAny":true,"strictNullChecks":true}
+// tsConfig: {"noImplicitAny":true,"strictNullChecks":true}
 
-  const x: number | null = null
-})()
+const x: number | null = null
+
+export default {}

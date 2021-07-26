@@ -1,5 +1,5 @@
-;(() => {
-  interface ComponentProps {
-    onSelectItem: (id: number) => void
-  }
-})()
+interface ComponentProps {
+  onSelectItem: (id: number) => void
+}
+
+export default {}

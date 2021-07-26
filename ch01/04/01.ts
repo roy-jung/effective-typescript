@@ -1,6 +1,6 @@
-;(() => {
-  interface Vector2D {
-    x: number
-    y: number
-  }
-})()
+interface Vector2D {
+  x: number
+  y: number
+}
+
+export default {}
