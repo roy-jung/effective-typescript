@@ -1,8 +1,8 @@
-;(() => {
-  function getStringLen(foo: String) {
-    return foo.length
-  }
+function getStringLen(foo: String) {
+  return foo.length
+}
 
-  getStringLen('hello') // OK
-  getStringLen(new String('hello')) // OK
-})()
+getStringLen('hello') // OK
+getStringLen(new String('hello')) // OK
+
+export default {}

@@ -1,5 +1,5 @@
-;(() => {
-  interface Identified {
-    id: string
-  }
-})()
+interface Identified {
+  id: string
+}
+
+export default {}

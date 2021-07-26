@@ -1,10 +1,10 @@
-;(() => {
-  type TState = {
-    name: string
-    capital: string
-  }
-  interface IState {
-    name: string
-    capital: string
-  }
-})()
+type TState = {
+  name: string
+  capital: string
+}
+interface IState {
+  name: string
+  capital: string
+}
+
+export default {}

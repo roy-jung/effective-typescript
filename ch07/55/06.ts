@@ -1,3 +1,3 @@
-;(() => {
-  const div = document.getElementById('my-div')!
-})()
+const div = document.getElementById('my-div')!
+
+export default {}

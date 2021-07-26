@@ -1,6 +1,6 @@
-;(() => {
-  interface Person {
-    first: string
-    last: string
-  }
-})()
+interface Person {
+  first: string
+  last: string
+}
+
+export default {}

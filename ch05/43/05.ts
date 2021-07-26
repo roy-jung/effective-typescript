@@ -1,10 +1,10 @@
-;(() => {
-  export {}
-  declare global {
-    interface Document {
-      /** Genus or species of monkey patch */
-      monkey: string
-    }
+export {}
+declare global {
+  interface Document {
+    /** Genus or species of monkey patch */
+    monkey: string
   }
-  document.monkey = 'Tamarin' // OK
-})()
+}
+document.monkey = 'Tamarin' // OK
+
+export default {}

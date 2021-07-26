@@ -1,6 +1,6 @@
-;(() => {
-  const utils = {
-    buildColumnInfo(s: any, name: string): any {},
-  }
-  declare let appState: { dataSchema: unknown }
-})()
+const utils = {
+  buildColumnInfo(s: any, name: string): any {},
+}
+declare let appState: { dataSchema: unknown }
+
+export default {}

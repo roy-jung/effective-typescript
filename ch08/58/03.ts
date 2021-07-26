@@ -1,3 +1,3 @@
-;(() => {
-  declare let array: number[]
-})()
+declare let array: number[]
+
+export default {}

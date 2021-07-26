@@ -1,7 +1,7 @@
-;(() => {
-  interface Room {
-    numDoors: number
-    ceilingHeightFt: number
-  }
-  function setDarkMode() {}
-})()
+interface Room {
+  numDoors: number
+  ceilingHeightFt: number
+}
+function setDarkMode() {}
+
+export default {}

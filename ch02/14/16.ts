@@ -1,22 +1,22 @@
-;(() => {
-  interface Options {
-    width: number
-    height: number
-    color: string
-    label: string
+interface Options {
+  width: number
+  height: number
+  color: string
+  label: string
+}
+interface OptionsUpdate {
+  width?: number
+  height?: number
+  color?: string
+  label?: string
+}
+class UIWidget {
+  constructor(init: Options) {
+    /* ... */
   }
-  interface OptionsUpdate {
-    width?: number
-    height?: number
-    color?: string
-    label?: string
+  update(options: OptionsUpdate) {
+    /* ... */
   }
-  class UIWidget {
-    constructor(init: Options) {
-      /* ... */
-    }
-    update(options: OptionsUpdate) {
-      /* ... */
-    }
-  }
-})()
+}
+
+export default {}

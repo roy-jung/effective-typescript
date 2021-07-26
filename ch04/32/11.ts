@@ -1,12 +1,12 @@
-;(() => {
-  interface Name {
-    name: string
-  }
+interface Name {
+  name: string
+}
 
-  interface PersonWithBirth extends Name {
-    placeOfBirth: string
-    dateOfBirth: Date
-  }
+interface PersonWithBirth extends Name {
+  placeOfBirth: string
+  dateOfBirth: Date
+}
 
-  type Person = Name | PersonWithBirth
-})()
+type Person = Name | PersonWithBirth
+
+export default {}

@@ -1,3 +1,3 @@
-;(() => {
-  declare let obj: { props: { a: string; b: number } }
-})()
+declare let obj: { props: { a: string; b: number } }
+
+export default {}

@@ -1,6 +1,6 @@
-;(() => {
-  const el = document.getElementById('foo') // type is HTMLElement | null
-  if (typeof el === 'object') {
-    el // Type is HTMLElement | null
-  }
-})()
+const el = document.getElementById('foo') // type is HTMLElement | null
+if (typeof el === 'object') {
+  el // Type is HTMLElement | null
+}
+
+export default {}

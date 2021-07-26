@@ -1,3 +1,3 @@
-;(() => {
-  function somethingDangerous() {}
-})()
+function somethingDangerous() {}
+
+export default {}

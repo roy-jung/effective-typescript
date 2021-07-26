@@ -1,3 +1,3 @@
-;(() => {
-  interface Vector3D {}
-})()
+interface Vector3D {}
+
+export default {}

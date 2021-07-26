@@ -1,13 +1,13 @@
-;(() => {
-  interface Identified {
-    id: string
-  }
-  interface Person {
-    name: string
-  }
-  interface Lifespan {
-    birth: Date
-    death?: Date
-  }
-  type PersonSpan = Person & Lifespan
-})()
+interface Identified {
+  id: string
+}
+interface Person {
+  name: string
+}
+interface Lifespan {
+  birth: Date
+  death?: Date
+}
+type PersonSpan = Person & Lifespan
+
+export default {}

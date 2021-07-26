@@ -1,10 +1,10 @@
-;(() => {
-  interface Person {
-    firstName: string
-    lastName: string
-  }
+interface Person {
+  firstName: string
+  lastName: string
+}
 
-  interface PersonWithBirthDate extends Person {
-    birth: Date
-  }
-})()
+interface PersonWithBirthDate extends Person {
+  birth: Date
+}
+
+export default {}

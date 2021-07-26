@@ -1,12 +1,12 @@
-;(() => {
-  type RecordingType = 'studio' | 'live'
+type RecordingType = 'studio' | 'live'
 
-  interface Album {
-    artist: string
-    title: string
-    releaseDate: Date
-    recordingType: RecordingType
-  }
-  type K = keyof Album
-  // Type is "artist" | "title" | "releaseDate" | "recordingType"
-})()
+interface Album {
+  artist: string
+  title: string
+  releaseDate: Date
+  recordingType: RecordingType
+}
+type K = keyof Album
+// Type is "artist" | "title" | "releaseDate" | "recordingType"
+
+export default {}

@@ -1,1 +1,3 @@
-declare function fetch(input: RequestInfo, init?: RequestInit): Promise<Response>
+const response = fetch('http://example.com')
+
+export default {}

@@ -1,5 +1,5 @@
-;(() => {
-  namespace foo {
-    function bar() {}
-  }
-})()
+namespace foo {
+  function bar() {}
+}
+
+export default {}

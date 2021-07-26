@@ -1,4 +1,4 @@
-;(() => {
-  /** What type of environment was this recording made in?  */
-  type RecordingType = 'live' | 'studio'
-})()
+/** What type of environment was this recording made in?  */
+type RecordingType = 'live' | 'studio'
+
+export default {}

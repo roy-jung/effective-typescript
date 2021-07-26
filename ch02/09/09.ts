@@ -1,6 +1,6 @@
-;(() => {
-  interface Person {
-    name: string
-  }
-  const people: Person[] = ['alice', 'bob', 'jan'].map((name): Person => ({ name }))
-})()
+interface Person {
+  name: string
+}
+const people: Person[] = ['alice', 'bob', 'jan'].map((name): Person => ({ name }))
+
+export default {}

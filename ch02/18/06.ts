@@ -1,19 +1,19 @@
-;(() => {
-  interface ScatterProps {
-    // The data
-    xs: number[]
-    ys: number[]
+interface ScatterProps {
+  // The data
+  xs: number[]
+  ys: number[]
 
-    // Display
-    xRange: [number, number]
-    yRange: [number, number]
-    color: string
+  // Display
+  xRange: [number, number]
+  yRange: [number, number]
+  color: string
 
-    // Events
-    onClick: (x: number, y: number, index: number) => void
-  }
-  interface ScatterProps {
-    // ...
-    onDoubleClick: () => void
-  }
-})()
+  // Events
+  onClick: (x: number, y: number, index: number) => void
+}
+interface ScatterProps {
+  // ...
+  onDoubleClick: () => void
+}
+
+export default {}

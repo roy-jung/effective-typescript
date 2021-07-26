@@ -1,6 +1,6 @@
-;(() => {
-  declare let array: number[]
-  array.forEach((el, i) => {
-    // ...
-  })
-})()
+declare let array: number[]
+array.forEach((el, i) => {
+  // ...
+})
+
+export default {}
