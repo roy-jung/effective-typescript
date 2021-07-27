@@ -1,6 +1,7 @@
 # 이펙티브 타입스크립트 독서스터디
 
 [지금까지의 스터디 영상 Playlist](https://youtube.com/playlist?list=PLjQV3hketAJmXGaWCMGB9-085EiefWcyw)
+
 지금까지의 영상을 유튜브로  팔로우업하신 다음 중간부터 합류하셔도 괜찮습니다.
 
 ## 스터디 목표
