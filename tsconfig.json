@@ -4,9 +4,8 @@
     "typeRoots": ["./node_modules/@types"],
     "noImplicitAny": true,
     "strictNullChecks": true,
-    "lib": ["esnext", "dom"]
+    "lib": ["ESNext", "dom"],
+    "target": "ESNext"
   },
-  "include": ["**/*.ts"],
-  "exclude": ["node_modules"],
-  "target": "esnext"
+  "exclude": ["node_modules"]
 }
