@@ -23,7 +23,7 @@ class D extends E {
 const f: C = new D('') // prototype chain 상에 method가 존재하면 okay.
 
 const g = Object.create({ method() {} }, { foo: { value: '' } }) // g: any
-const h: C = g // 강제형변환으로 okay.
+const h: C = g // C type 강제(assert)하여 okay.
 
 const i: { foo: string; method: () => void } = Object.create({ method() {} }, { foo: { value: '' } })
-const j: C = i // 강제형변환으로 foo, method 타입을 지정하여 okay.
+const j: C = i // { foo, method } 타입을 강제하여 okay.
