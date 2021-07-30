@@ -28,6 +28,6 @@ const v = typeof Cylinder // Value is "function"
 type T = typeof Cylinder // Type is typeof Cylinder
 type PersonEl = Person['first' | 'last'] // Type is string
 type Tuple = [string, number, Date]
-type TupleEl = Tuple[number] // Type is string | number | Date
+type TupleEl = Tuple[number] // Type is string | number | Date (number가 0, 1, 2 중에 하나만 올 수 있으니까)
 
 export default {}
