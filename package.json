@@ -6,11 +6,15 @@
   "author": "roy-jung <power4ce@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/lodash": "^4.14.172",
     "nodemon": "^2.0.12",
     "ts-node": "^10.1.0",
     "typescript": "^4.3.5"
   },
   "scripts": {
     "start": "nodemon --exec 'ts-node' --cwd $INIT_CWD"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }

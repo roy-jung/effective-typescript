@@ -4,6 +4,7 @@
     "typeRoots": ["./node_modules/@types"],
     "noImplicitAny": true,
     "strictNullChecks": true,
+    "allowSyntheticDefaultImports": true,
     "lib": ["ESNext", "dom"],
     "target": "ESNext"
   },
