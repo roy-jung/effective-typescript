@@ -6,6 +6,7 @@
   "author": "roy-jung <power4ce@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/geojson": "^7946.0.8",
     "@types/lodash": "^4.14.172",
     "nodemon": "^2.0.12",
     "ts-node": "^10.1.0",
